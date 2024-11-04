@@ -1,0 +1,361 @@
+# Untuk membuat file
+touch file_name
+
+# Digunakan untuk menampilkan isi sebuah file
+more file_name
+
+# Digunakan untuk menuliskan sesuatu kata atau kalimat ke sebuah file.
+echo “Hai ini adalah contoh pesan” >> file1.txt
+
+# Untuk menambah user baru
+adduser [nama_user]
+
+# Untuk menambah group baru
+addgroup [nama_group]
+
+# Digunakan untuk melihat perangkat usb yang sedang terkoneksi ke komputer
+lsusb
+
+# Digunakan untuk melihat perangkat pci yang sedang terkoneksi ke komputer
+lspci
+
+#Digunakan untuk melihat hardware komputer.
+lshw
+
+#Digunakan untuk melihat hardware yang sedang beraktifitas
+dmseg
+
+# Digunakan untuk melihat spesifikasi komputer
+cpuinfo
+
+#Digunakan untuk melihat status RAM
+meminfo
+
+# untuk mematikan komputer tapi harus root
+halt
+
+# untuk merestart komputer
+reboot
+
+# berfungsi untuk melihat user sebelumnya yang telah login di komputer
+last
+
+# Perintah ini di gunakan untuk mengubah kepemilikan file atau directory. 
+chown username:groupname lokasi_file
+
+# remove aplikasi 
+sudo apt-get remove [nama_aplikasi]
+
+# install aplikasi
+sudo apt-get install [nama_aplikasi]
+
+#cari aplikasi di repository
+sudo apt-cache search [nama_aplikasi]
+
+# memperbaiki paket yang rusak 
+sudo apt-get -f install
+
+#copy file
+cp (-i or -b) /media/sda3/SkyDrive/untitelds.mpg /home/levan/kdenlive
+-i artinya ada confirm interactiv, -b artinya backup file
+
+# pindah file
+mv [filename] [foldername]
+gunakan mode -R untuk rekursif
+sudo mv fromPath/ toPath/
+gunakan -i jika ada file yang sama
+
+# Install debian .deb
+sudo dpkg -i file.deb
+
+# Mematikan system
+shutdown now
+
+# Melakukan chmod rekursif
+chmod -R [kode] /folder
+
+# Melihat status chmod direktory
+ls -l directory or stat directory
+or, if you want to see only the permissions in numeric (octal) format:
+stat -c %a directory
+
+#berfungsi untuk mencari suatu file pada direktori lain yang sedang tidak dikunjungi. Catatan : Sebelum menuliskan perintah locate, tuliskan perintah updatedb. Tunggu hingga selesai, baru tuliskan perintah.
+locate [search]
+
+# berfungsi untuk melihat file html atau browse ke net dengan text mode
+lynx
+
+# berfungsi untuk menjalankan “Midnight Commander” sebagai file manager
+mc
+
+# berfungsi untuk menyalin suatu file dari atau ke dos filesystem
+mcopy
+
+# berfungsi untuk text editor (notepad)
+nano [file_name]
+
+# berfungsi untuk menggunakan password
+passwd
+
+# berfungsi untuk membuat Simbolic Links
+ln -s
+
+# berfungsi untuk melihat isi suatu file dengan fasilitas melihat isi file dari atas dan untuk kebawah menggunakan tombol Enter untuk perlayar
+pg
+
+# (remote shell) sebagai jalan lain untuk menghubungkan anda ke remote machine
+rsh
+
+# berfungsi untuk melihat semua user yg login pada network anda
+rwho –a
+
+# berfungsi untuk melihat environment dari user yang aktif
+set 
+
+# Melihat file pada /proc directori yang bukan merupakan file nyata (not real files)
+cat /proc/cpuinfo
+
+# Melihat alamat interrupt yang dipakai
+cat /proc/interrupts
+
+# Versi dari Linux dan informasi lainnya
+cat /proc/version
+
+# Melihat filesystem yang digunakan
+cat /proc/filesystems
+
+# Melihat printer yang telah disetup
+cat /etc/printcap
+
+# Melihat file pada /proc directori yang bukan merupakan file nyata (not real files)
+cat /proc/cpuinfo
+
+# Melihat alamat interrupt yang dipakai
+cat /proc/interrupts
+
+# Versi dari Linux dan informasi lainnya
+cat /proc/version
+
+# Melihat filesystem yang digunakan
+cat /proc/filesystems
+
+# Melihat printer yang telah disetup
+cat /etc/printcap
+
+# Melihat informasi user, coba jalankan; fingerroot
+finger username
+
+# Melihat user sebelumnya yang telah login di komputer
+last
+
+# digunakan u/ keluar dari editor sekaligus menyimpan file
+:wq
+
+# Menampilkan 10 baris terakhir dari suatu file
+tail
+
+# berfungsi untuk meng-uncompress file dengan format (*.bz2) dengan utiliti “bzip2”, digunakan pada file yang besar
+bunzip2
+
+# Melihat jumlah waktu pemakaian komputer oleh seseorang, terhitung proses reboot terakhir
+uptime
+
+# Melihat proses-proses yang dijalankan oleh user
+ps (=print status)
+
+# Melihat seluruh proses yang dijalankan, walaupun tanpa terminal control, juga ditampilkan nama dari user untuk setiap proses.
+ps axu
+
+# Mencari perintah pada sistem operasi yang mempunyai fungsi yang sama
+apropos
+
+# topic berfungsi untuk menampilkan bantuan manual berdasarkan topik
+apropos topic
+
+# Menghitung jumlah kata, jumlah baris dan jumlah karakter dalam suatu file
+wc 
+
+# untuk menampilkan halaman manual untuk semua perintah UNIX
+man
+
+# Mencari isi suatu file di sembarang directori
+grep
+
+# Memonitor informasi tentang proses yang aktif dalam sistem UNIX
+ps   
+
+# Perintah bc dapat digunakan sebagai calculator
+bc 
+
+# Pengiriman pesan oleh super user
+wall 
+
+# di gunakan u/ menyimpan file or sama dengan (save)
+:w
+
+# digunakan u/ keluar dari editor tandan mentimpan file
+:q
+
+# berfungsi untuk keluar dari editor sekaligus menyimpan file
+:wq 
+
+# Keluar dari terminal
+exit
+
+# Digunakan untuk mendownload via terminal
+wget [link_download]
+
+# Digunakan untuk melihat konfigurasi ethernet/kartu jaringan.
+ifconfig
+
+# Digunakan untuk melakukan extract file.
+tar -xzvf file.tar.gz
+
+# Digunakan untuk membuka tampilan GUI secara langsung.
+nautilus
+
+# digunakan untuk melihat nama login kita.
+who
+
+# digunakan untuk melihat tanggal jam
+date
+
+# Menampilkan nama komputer.
+hostname
+
+# Menampilkan free memory
+free
+
+# Hapus user
+deluser  [user]
+
+# Melihat kernel yang digunakan pada OS
+uname -r
+
+# Informasi system kernel anda
+uname -a
+
+# berfungsi untuk melihat suatu file layar per layar, dan tekan tombol “q” apabila ingin keluar
+less
+
+# Melihat monitor prosess
+top
+
+# Perintah membuat folder baru
+mkdir  nama_folder
+
+# Melihat perintah-perintah apa saja yang telah dilakukan
+HISTORY
+
+# melihat file
+ls –l = Melihat semua file lengkap
+ls -a = Menampilkan semua file atau direktori yang tersembunyi
+ls -f = Menampilkan semua file atau direktori tanpa proses shorting
+
+# Perintah untuk hapus file
+rm [file ] dan rmdir [folder]  <-- untuk hapus folder
+
+# Perintah untuk melihat partisi hardisk
+df -h
+
+# Perintah untuk melihat calendar hari ini atau pun untuk menghitung calendar
+cal atau cal juli 1996 <--- contoh
+
+# Perintah untuk menampilkan isi file di cmd
+cat nama_file.ekstensinya
+
+# Perintah untuk membersihkan terminal
+clear
+
+# Perintah untuk mengganti grup pemilik pada file atau directory
+chgrp groupname letak_file
+
+# Untuk  melihat daftar group
+groups atau groups [nama_group] atau id -Gn atau getent group [userName]
+
+# Untuk mematikan proses tertentu
+sudo kill <pid> or sudo killall <process-name>
+
+# Untuk mengetahui posisi direktory sekarang
+pwd
+
+# berfungsi untuk mengurutkan suatu file teks menurut abjad
+sort
+
+# berfungsi untuk menjalankan sebuah service
+start
+
+# berfungsi untuk menjalankan X-window server dan meload default windows manager
+startx
+
+# berfungsi untuk menghentikan sebuah service yang sedang berjalan
+stop 
+
+# berfungsi untuk dengan user lain yg sedang login pada mesin kita
+talk 
+
+# berfungsi untuk untuk menghubungkan komputer kita ke komputer lain dengan menggunakan protokol TELNET
+telnet
+
+# berfungsi untuk melihat jumlah waktu yg ditangani
+time
+
+# berfungsi untuk Menghilangkan baris – baris berurutan yang mengalami duplikasi
+uniq 
+
+# berfungsi untuk mengekstrak atau mengurai file yang dikompress dalam bentuk *.zip
+unzip 
+
+# berfungsi untuk menampilkan fungsi dari suatu perintah saja yang dimaksud
+whatis 
+
+# berfungsi untuk untuk mengetahui apa itu addgroup
+whatis addgroup 
+
+# berfungsi untuk untuk mengetahui apa itu adduser
+whatis adduser 
+
+# berfungsi untuk untuk mengetahui apa itu date
+whatis date 
+
+# berfungsi untuk menunjukan lokasi dari suatu perintah
+which 
+
+# berfungsi untuk mengedit suatu text file, dengan menonaktifkan fungsi word wrap
+pico –w
+
+# koneksi ke ssh
+ssh [ip]
+
+###############################################################################
+#                                                                             #
+# Kode kombinasi menggunakan tombol keyboard, Linux Ubuntu Server mode CLI    #
+#                                                                             #
+###############################################################################
+
+# untuk ke awal baris yang sedang Anda ketikkan
+Ctrl + A 
+
+# Ke akhir baris yang sedang Anda ketikkan
+Ctrl + E 
+
+# Membersihkan seluruh layar terminal, seperti perintah clear
+Ctrl + L 
+
+# Bersihkan baris sebelum posisi kursor. Kalau Anda di akhir baris, akan menghapus semua barisnya
+Ctrl + U 
+
+# Seperti backspace
+Ctrl + H
+
+# Mencari perintah Anda sebelumnya
+Ctrl + R 
+
+# Matikan apa pun yang sedang Anda jalankan
+Ctrl + C 
+
+# Keluar dari shell saat ini
+Ctrl + D 
+
+# Menaruh apa pun yang Anda jalankan di Terminal ke suspended background process. Fg mengembalikannya
+Ctrl + Z
